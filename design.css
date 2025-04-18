@@ -5,7 +5,7 @@ html, body {
   font-family: 'Segoe UI', sans-serif;
   background: #fff8f2;
   color: #4b2e2e;
-  font-size: 18px;
+  font-size: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@ html, body {
 .container {
   width: 100%;
   max-width: 960px;
-  padding: 20px;
+  padding: 48px;
   box-sizing: border-box;
 }&#8203;:contentReference[oaicite:1]{index=1}
 
