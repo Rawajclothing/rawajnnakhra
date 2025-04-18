@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8f2;
+  color: #4b2e2e;
+}
+header {
+  background-color: #f4d4c2;
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+.shop-now {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #b85c38;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.product-card {
+  background-color: #fff;
+  border: 1px solid #e1cfcf;
+  border-radius: 12px;
+  width: 250px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.product-card h3 {
+  margin: 0.5rem 0 0;
+}
+footer {
+  background-color: #f4d4c2;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.dm-button {
+  margin-top: 1rem;
+  display: inline-block;
+  background-color: #833AB4;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+}
