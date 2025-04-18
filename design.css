@@ -1,22 +1,42 @@
-body {
+/* Reset and base styles */
+html, body {
+  height: 100%;
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: #fff8f2;
   color: #4b2e2e;
-}
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}&#8203;:contentReference[oaicite:0]{index=0}
+
+/* Container to center content */
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding: 20px;
+  box-sizing: border-box;
+}&#8203;:contentReference[oaicite:1]{index=1}
+
+/* Header styling */
 header {
   background-color: #f4d4c2;
   padding: 2rem;
   text-align: center;
-}
+}&#8203;:contentReference[oaicite:2]{index=2}
+
 header h1 {
   margin: 0;
   font-size: 2.5rem;
-}
+}&#8203;:contentReference[oaicite:3]{index=3}
+
 header p {
   font-style: italic;
   margin-top: 0.5rem;
-}
+}&#8203;:contentReference[oaicite:4]{index=4}
+
+/* Shop Now button */
 .shop-now {
   display: inline-block;
   margin-top: 1rem;
@@ -26,17 +46,22 @@ header p {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-}
+}&#8203;:contentReference[oaicite:5]{index=5}
+
+/* Section styling */
 .section {
   padding: 2rem;
   text-align: center;
-}
+}&#8203;:contentReference[oaicite:6]{index=6}
+
+/* Products grid */
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-}
+}&#8203;:contentReference[oaicite:7]{index=7}
+
 .product-card {
   background-color: #fff;
   border: 1px solid #e1cfcf;
@@ -44,20 +69,26 @@ header p {
   width: 250px;
   padding: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
+}&#8203;:contentReference[oaicite:8]{index=8}
+
 .product-card img {
   width: 100%;
   border-radius: 8px;
-}
+}&#8203;:contentReference[oaicite:9]{index=9}
+
 .product-card h3 {
   margin: 0.5rem 0 0;
-}
+}&#8203;:contentReference[oaicite:10]{index=10}
+
+/* Footer styling */
 footer {
   background-color: #f4d4c2;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-}
+}&#8203;:contentReference[oaicite:11]{index=11}
+
+/* Direct Message button */
 .dm-button {
   margin-top: 1rem;
   display: inline-block;
@@ -66,10 +97,13 @@ footer {
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
   text-decoration: none;
-}
+}&#8203;:contentReference[oaicite:12]{index=12}
+
+/* Responsive adjustments */
 @media (max-width: 600px) {
   .products {
     flex-direction: column;
     align-items: center;
   }
-}
+}&#8203;:contentReference[oaicite:13]{index=13}
+
